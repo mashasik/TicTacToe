@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Крестики нолики</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+
+    <div class="field">
+      <p class="result">Ваш ход!</p>
+      <div class="block cell1"></div>
+  		<div class="block cell2"></div>
+    	<div class="block cell3"></div>
+    	<div class="block cell4"></div>
+    	<div class="block cell5"></div>
+    	<div class="block cell6"></div>
+    	<div class="block cell7"></div>
+    	<div class="block cell8"></div>
+    	<div class="block cell9"></div>
+    </div>
+
+  	<center style="clear:both;"><br>
+      <script type="text/javascript">
+        var curent_url = document.URL;
+        document.write("<a class='join' href='" + curent_url + "'>Начать сначала</a>");
+      </script>
+      <!-- Запуск модального окна -->
+      <button type="button" class="join" data-toggle="modal" data-target="#myModal">About</button>
+      <!-- Окно -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Контент -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">About application</h3>
+            </div>
+            <div class="modal-body">
+              <p>Institution: О. М. Beketov National University of Urban Economy in Kharkiv ( О.М.Beketov NUUE )</p>
+              <p>Department: Applied Mathematics and Information Technologies ( AM&IT )</p>
+              <h4>Executor</h3>
+              <p>Consultant: I. Yakovitskiy (igor.yakovitskiy@kname.edu.ua)</p>
+              <p>Specialty: System Engineering</p>
+              <p>Name Surname: Masha Gnatchenko</p>
+              <p>Email:
+                <a href="mailto:masha.korobka@gmail.com">Gmail</a>
+              </p>
+              <p>Contact:
+              <a href="https://vk.com/mashakitay">VK</a></p>
+              <h4>Version</h3>
+              <p>Date: 17.05.2017</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  	</center>
+
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
