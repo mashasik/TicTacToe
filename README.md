@@ -1,14 +1,7 @@
-# A Blank PhoneGap App
+# Tic Tac Toe Game
+Крестики-нолики
 
 ## Usage
-
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
-
+Использовался PhoneGap.<br>
+Исходники в www;<br>
+Иконки в www/res/
